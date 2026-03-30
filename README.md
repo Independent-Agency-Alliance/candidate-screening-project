@@ -1,38 +1,41 @@
 # Candidate Screening Project
+Welcome! We understand that as university students, you likely do not have any prior web development experience. That is completely okay, and in fact, it is exactly what we are looking for. 
 
-In order to be selected to the next round of the interview process, the candidate needs to complete 
-this project with the following requirements. 
+## Project Philosophy: What We Are Testing
+This project is deliberately designed using technologies you haven't learned yet. We are not testing your existing web development knowledge. Instead, we are evaluating:
+* Your Learning Agility: How effectively you can tackle an unfamiliar problem and learn new concepts on the fly.
+* Reading Comprehension: Your ability to read, understand, and apply technical documentation and tutorials written in English.
+* Git & GitHub Skills: Your ability to use industry-standard version control correctly.
+* Tool Utilization: How well you use modern tools (like AI, search engines, and IDEs) to overcome roadblocks.
 
 ## Feature Requirements
-Follow this tutorial to create a shopping list application: https://www.freecodecamp.org/news/how-to-build-a-shopping-list-using-react-hooks-w-starter-code-and-video-walkthrough/ with three additional requirements: 
-1. Completed item quantities should not be counted in total.
-2. Prevent the end-user from entering duplicate item name.
-2. Store the todos using a NodeJS backend and a database of your choice
+Your primary task is to read and follow this English tutorial to create a basic application: [How to Build a Shopping List Using React Hooks](https://www.freecodecamp.org/news/how-to-build-a-shopping-list-using-react-hooks-w-starter-code-and-video-walkthrough/). 
 
-Show off your design skills to make it easy and intuitive for user to use your app
+Once you have the base app working, use documentation and your research skills to add the following requirements:
+1. Completed item quantities should not be counted in the total.
+2. Prevent the end-user from entering a duplicate item name.
+3. Cloud & Deployment: Create a new project in Firebase, and use Firebase Studio to code and deploy your application to Firebase. Use Firebase's database solutions (like Firestore or Realtime Database) to store the todos.
+4. Show off your design skills to make it easy and intuitive for the user to use your app.
 
-## Technical Requirements
-1. Fork this project to your account in Github, 
-   for example (https://github.com/your-username/candidate-screening-project)
-   and use it as your submission
-1. Add [aduyng@gmail.com](aduyng@gmail.com) as a collaborator of the new project (so that I can read your code)
-1. Use https://github.com/facebook/create-react-app to create a new project in Javascript
-1. Integrate https://mui.com/ to this project and use it as the UI framework
-1. Using jest (according to this tutorial: https://jestjs.io/docs/tutorial-react) to write unit tests (only snapshot 
-   testing is required) for your application and ensure 100% code coverage
-1. Integrate Testcafe from https://testcafe.io/ and write the automation test cases to test 
-your application. Make sure that you write all test cases to cover the entire functionalities.
-1. Complete the project on or before the assigned deadline. Once completed, 
-   send an email to [aduyng@gmail.com](aduyng@gmail.com)
-   with the subject "I completed my project". In the body of the email provide your name, the URL to the forked project 
-   on github. 
+## General Expectation: Resourcefulness & AI
+Be resourceful. You are highly encouraged to use modern tools, including AI assistants (such as ChatGPT, GitHub Copilot, Gemini, etc.), to help you learn the concepts and build this application.
 
+However, you must fully understand what the AI does. Do not blindly copy and paste code. If you are selected for the next round, you will be asked to explain the code, how you found the solution, and what the code is doing line-by-line. Your ability to leverage these tools to learn, rather than just to cheat, is a core part of this assessment.
+
+## Technical & Workflow Requirements
+* Git & GitHub: Fork this project to your account in Github (https://github.com/your-username/candidate-screening-project) and use it as your submission.
+* Show Your Work: Do not just make one massive commit at the end. We want to see your Git history. Commit your code regularly with clear, descriptive messages in English to show us your step-by-step progress and problem-solving process.
+* Add aduyng@gmail.com as a collaborator on the new project (so that I can read your code).
+* Use Create React App to create a new project in Javascript or Typescript.
+* Integrate Material-UI (MUI) into this project and use it as the UI framework. Reading their documentation will be key here.
+* Complete the project on or before the assigned deadline.
+* Once completed, send an email to aduyng@gmail.com with the subject "I completed my project". In the body of the email, provide your name and the URL to the forked project on GitHub.
+  
 ## Evaluation Factors
-The most importance judging factors is on top. 
-
-1. All requirements as described above are satisfied
-1. Fully understood your code, you will need to present it if got selected
-1. Free of ESLint errors and Google Chrome (or Firefox) Devtool errors / warnings
-1. Clean code, proper naming conventions, show off your skills in writing a readable code
-1. Use of react hooks as described in this page: https://reactjs.org/docs/hooks-overview.html
-1. All scenarios are covered by your unit test cases and your automation.
+The most important judging factors are at the top.
+* Learning & Comprehension (The Interview): You fully understand your code (and any AI-generated code) and can confidently explain how it works and how you figured it out.
+* Git Workflow: Your GitHub repository shows a clear history of regular commits with meaningful commit messages.
+* Requirement Satisfaction: All feature and technical requirements as described above are successfully implemented.
+* Error-Free: Free of ESLint errors and Google Chrome (or Firefox) Devtool errors/warnings.
+* Code Quality: Clean code, proper naming conventions, and an attempt at writing readable code, demonstrating good foundational programming habits.
+* Modern React: Proper use of React hooks as described in the React documentation.
