@@ -14,7 +14,7 @@ Your primary task is to read and follow this English tutorial to create a basic 
 Once you have the base app working, use documentation and your research skills to add the following requirements:
 1. Completed item quantities should not be counted in the total.
 2. Prevent the end-user from entering a duplicate item name.
-3. Cloud & Deployment: Create a new project in Firebase, and use Firebase Studio to code and deploy your application to Firebase. Use Firebase's database solutions (like Firestore or Realtime Database) to store the todos.
+3. Cloud & Deployment: Create a new project in Firebase, and use Firebase Studio to code and deploy your application to Firebase. Use Firebase's database solutions (like Firestore or Realtime Database) to store the todos. Use Firebase hosting to deploy your project to the cloud. 
 4. Show off your design skills to make it easy and intuitive for the user to use your app.
 
 ## General Expectation: Resourcefulness & AI
