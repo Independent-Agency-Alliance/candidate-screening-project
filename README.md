@@ -13,7 +13,7 @@ Show off your design skills to make it easy and intuitive for user to use your a
 
 ## Technical Requirements
 1. Fork this project to your account in Github, 
-   for example (https://github.com/your-username/202104-candidate-screening-project)
+   for example (https://github.com/your-username/candidate-screening-project)
    and use it as your submission
 1. Add [aduyng@gmail.com](aduyng@gmail.com) as a collaborator of the new project (so that I can read your code)
 1. Use https://github.com/facebook/create-react-app to create a new project in Javascript
